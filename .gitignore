@@ -1,0 +1,3 @@
+.prettierrc.yaml
+.prettierignore
+*/node_modules
