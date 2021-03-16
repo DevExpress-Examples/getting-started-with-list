@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "getting-started-with-dropdownbutton": {
+    "getting-started-with-list": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,7 +17,7 @@
               "devextreme",
               "devextreme-angular"
             ],
-            "outputPath": "dist/getting-started-with-dropdownbutton",
+            "outputPath": "dist/getting-started-with-list",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "getting-started-with-dropdownbutton:build"
+            "browserTarget": "getting-started-with-list:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "getting-started-with-dropdownbutton:build:production"
+              "browserTarget": "getting-started-with-list:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "getting-started-with-dropdownbutton:build"
+            "browserTarget": "getting-started-with-list:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "getting-started-with-dropdownbutton:serve"
+            "devServerTarget": "getting-started-with-list:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "getting-started-with-dropdownbutton:serve:production"
+              "devServerTarget": "getting-started-with-list:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "getting-started-with-dropdownbutton"
+  "defaultProject": "getting-started-with-list"
 }
