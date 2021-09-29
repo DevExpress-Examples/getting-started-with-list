@@ -1,4 +1,6 @@
-# getting-started-with-list
+# Getting Started with DevExtreme Angular List
+
+This repository stores Angular source code for the [Getting Started with List](https://js.devexpress.com/Documentation/Guide/UI_Components/List/Getting_Started_with_List/) tutorial.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 

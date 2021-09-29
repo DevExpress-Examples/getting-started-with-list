@@ -1,4 +1,6 @@
-# getting-started-with-list
+# Getting Started with DevExtreme React List
+
+This repository stores React source code for the [Getting Started with List](https://js.devexpress.com/Documentation/Guide/UI_Components/List/Getting_Started_with_List/) tutorial.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
